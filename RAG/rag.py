@@ -48,7 +48,7 @@ vector_db = Chroma.from_documents(
 )
 print("done adding to vector database....")
 
-## === Retrieval ===
+## ==== Retrieval ====
 # set up our model to use
 llm = ChatOllama(model = model)
 # a simple technique to generate multiple questions from a single question and then retrieve documents
